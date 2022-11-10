@@ -4,6 +4,9 @@ import router from './router'
 import store from './store'
 import './plugins/element.js'
 import './assets/css/global.css'
+import axios from './network/request'
+
+Vue.prototype.$api = axios
 
 Vue.config.productionTip = false
 
